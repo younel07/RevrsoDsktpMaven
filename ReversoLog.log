@@ -1,0 +1,32 @@
+03/05/2024 07:48:52 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:48:52 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:48:54 Level : SEVERE / Message : Erreur: Le fichier de propriétés 'databaseClientProspect.properties' n'existe pas / Méthode : remplirComboBoxClients / Classe : Vues.Accueil
+03/05/2024 07:51:33 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:51:34 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:51:35 Level : SEVERE / Message : Erreur: Le fichier de propriétés 'databaseClientProspect.properties' n'existe pas / Méthode : remplirComboBoxClients / Classe : Vues.Accueil
+03/05/2024 07:52:34 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:52:35 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:52:36 Level : SEVERE / Message : Erreur: Le fichier de propriétés 'databaseClientProspect.properties' n'existe pas / Méthode : remplirComboBoxClients / Classe : Vues.Accueil
+03/05/2024 07:53:24 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:53:24 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:53:25 Level : SEVERE / Message : Erreur: Le fichier de propriétés 'databaseClientProspect.properties' n'existe pas / Méthode : remplirComboBoxClients / Classe : Vues.Accueil
+03/05/2024 07:53:58 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:53:59 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:54:04 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:54:05 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:54:20 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:54:20 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:55:06 Level : SEVERE / Message : Erreur: Le fichier de propriétés 'databaseClientProspect.properties' n'existe pas / Méthode : remplirComboBoxClients / Classe : Vues.Accueil
+03/05/2024 07:55:22 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:55:23 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:55:24 Level : SEVERE / Message : Erreur lors de la lecture du fichier de propriétés / Méthode : startConnection / Classe : Dao.Connexion
+03/05/2024 07:55:24 Level : SEVERE / Message : Erreur: Erreur est survenue veuillez réessayer ultérieurement / Méthode : remplirComboBoxClients / Classe : Vues.Accueil
+03/05/2024 07:56:12 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:56:13 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 07:56:14 Level : SEVERE / Message : Erreur: Le fichier de propriétés 'databaseClientProspect.properties' n'existe pas / Méthode : remplirComboBoxClients / Classe : Vues.Accueil
+03/05/2024 08:00:09 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 08:00:09 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 08:00:11 Level : SEVERE / Message : Erreur: Le fichier de propriétés 'databaseClientProspect.properties' n'existe pas / Méthode : remplirComboBoxClients / Classe : Vues.Accueil
+03/05/2024 08:00:32 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 08:00:33 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
+03/05/2024 08:00:54 Level : INFO / Message : Base de données fermée / Méthode : run / Classe : Dao.Connexion$1

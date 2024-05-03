@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vues.Accueil">
+  <grid id="cbd77" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="48" y="54" width="712" height="426"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="b2449" binding="pnlBtns" layout-manager="FlowLayout" hgap="5" vgap="10" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="bb841" class="javax.swing.JButton" binding="btnAfficheList">
+            <constraints/>
+            <properties>
+              <text value="Afficher liste"/>
+            </properties>
+          </component>
+          <hspacer id="d7d9f">
+            <constraints/>
+          </hspacer>
+          <hspacer id="c0dca">
+            <constraints/>
+          </hspacer>
+          <hspacer id="e4263">
+            <constraints/>
+          </hspacer>
+          <hspacer id="6cb69">
+            <constraints/>
+          </hspacer>
+          <hspacer id="6d989">
+            <constraints/>
+          </hspacer>
+          <component id="a78d2" class="javax.swing.JButton" binding="btnCreat">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <text value="New"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <hspacer id="67f33">
+            <constraints/>
+          </hspacer>
+          <hspacer id="77f19">
+            <constraints/>
+          </hspacer>
+          <hspacer id="c1ab3">
+            <constraints/>
+          </hspacer>
+          <component id="7e857" class="javax.swing.JButton" binding="btnAlter">
+            <constraints/>
+            <properties>
+              <text value="Modifier"/>
+            </properties>
+          </component>
+          <hspacer id="98f6f">
+            <constraints/>
+          </hspacer>
+          <component id="3bdcd" class="javax.swing.JButton" binding="btnDelete">
+            <constraints/>
+            <properties>
+              <text value="Supprimer"/>
+            </properties>
+          </component>
+          <hspacer id="1f58e">
+            <constraints/>
+          </hspacer>
+          <hspacer id="42384">
+            <constraints/>
+          </hspacer>
+          <hspacer id="292ef">
+            <constraints/>
+          </hspacer>
+          <component id="a0929" class="javax.swing.JButton" binding="btnQuit">
+            <constraints/>
+            <properties>
+              <text value="Quitter"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4661" binding="pnlTitre" layout-manager="GridBagLayout">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-1118482"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5662b" class="javax.swing.JLabel" binding="lblAccueil">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <text value="Accueil"/>
+            </properties>
+          </component>
+          <hspacer id="1a145">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="7b155">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="6a14f">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="698ca">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="253ac" binding="pnlCentre" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="9d1c6" binding="pnlComboBox" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="4098d" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="200"/>
+                </constraints>
+                <properties/>
+              </component>
+              <hspacer id="93cad">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="c4299">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="f74c9" binding="pnlClients" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-1315861"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e21ae" class="javax.swing.JLabel" binding="lblClients">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                  <font name="JetBrains Mono" size="16" style="2"/>
+                  <foreground color="-16777216"/>
+                  <text value="Clients"/>
+                </properties>
+              </component>
+              <hspacer id="da4c9">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="90fb">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </vspacer>
+              <component id="15c7e" class="javax.swing.JCheckBox" binding="chkBxClients">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-1315861"/>
+                  <borderPaintedFlat value="false"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <iconTextGap value="10"/>
+                  <margin top="2" left="2" bottom="2" right="2"/>
+                  <maximumSize width="18" height="18"/>
+                  <preferredSize width="18" height="18"/>
+                  <selected value="false"/>
+                  <text value=""/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <hspacer id="53656">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="f660f">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="7286a" binding="pnlProspects" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-1315861"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="79cb1" class="javax.swing.JLabel" binding="lblProspect">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16" style="2"/>
+                  <text value="Prospects"/>
+                </properties>
+              </component>
+              <component id="c511d" class="javax.swing.JCheckBox" binding="chkBxProspect">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <vspacer id="81e1e">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="c2ff4">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </vspacer>
+              <hspacer id="8eb07">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="33266">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

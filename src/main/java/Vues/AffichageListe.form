@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vues.AffichageListe">
+  <grid id="27dc6" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="595" height="493"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="f7168" binding="pnlTritre" layout-manager="GridBagLayout">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b4da7" class="javax.swing.JLabel" binding="lblAffichageList">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <text value="Affichage liste"/>
+            </properties>
+          </component>
+          <hspacer id="a4f7c">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="49bb8">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="babc">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="f87cf" binding="pnlBtns" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5c692" class="javax.swing.JButton" binding="btnRetour">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Retour"/>
+            </properties>
+          </component>
+          <hspacer id="b15c5">
+            <constraints/>
+          </hspacer>
+          <hspacer id="3b456">
+            <constraints/>
+          </hspacer>
+          <component id="854a6" class="javax.swing.JButton" binding="btnQuitter">
+            <constraints/>
+            <properties>
+              <text value="Quitter"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="20baa" binding="pnlCenter" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="588c8" binding="pnlLableCltPros" layout-manager="CardLayout" hgap="0" vgap="30">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c5231" class="javax.swing.JLabel" binding="lblListeClient">
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+                <properties>
+                  <font name="Source Code Pro" size="16" style="1"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="11"/>
+                  <text value="Liste des Clients"/>
+                </properties>
+              </component>
+              <component id="f15b9" class="javax.swing.JLabel" binding="lblListeProspect">
+                <constraints>
+                  <card name="Card2"/>
+                </constraints>
+                <properties>
+                  <font name="Source Code Pro" size="16" style="1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Liste des Prospects"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <hspacer id="e754">
+            <constraints border-constraint="West"/>
+          </hspacer>
+          <hspacer id="c986b">
+            <constraints border-constraint="East"/>
+          </hspacer>
+          <vspacer id="4d039">
+            <constraints border-constraint="South"/>
+          </vspacer>
+          <scrollpane id="15d6e" binding="scrlTable">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a244e" class="javax.swing.JTable" binding="bddList">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
