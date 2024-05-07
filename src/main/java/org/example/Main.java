@@ -27,7 +27,7 @@ public class Main {
 
                 //lancement du programme
                 ContAccueil.initAccueil();
-                System.out.println();
+                System.out.println("ReversoLog");
 
                 //Log fin
                 MyLogger.LOGGER.log(Level.INFO, "fin d'application");

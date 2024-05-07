@@ -41,3 +41,8 @@ jobs:
         with:
           name: reversoMaven
           path: target/*.jar
+      #download the artifact
+      - name: Download a single artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: reversoMaven
