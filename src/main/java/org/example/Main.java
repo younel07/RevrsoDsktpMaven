@@ -15,6 +15,7 @@ public class Main {
     private static FileHandler fh = null;
 
     public static void main(String[] args) throws Exception {
+        System.out.println("Welcom to ReversoMaven project");
 
             try {
                 //Lancement du fichier log
@@ -27,7 +28,6 @@ public class Main {
 
                 //lancement du programme
                 ContAccueil.initAccueil();
-                System.out.println("ReversoLog");
 
                 //Log fin
                 MyLogger.LOGGER.log(Level.INFO, "fin d'application");
