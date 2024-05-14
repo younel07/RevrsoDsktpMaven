@@ -5,4 +5,4 @@ WORKDIR /app
 
 COPY ReversoMaven-1.0-SNAPSHOT.jar /app/ReversoMaven-1.0-SNAPSHOT.jar
 
-CMD ["java", "-jar", "/ReversoMaven-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "ReversoMaven-1.0-SNAPSHOT.jar"]
