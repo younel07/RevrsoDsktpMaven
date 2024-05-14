@@ -10,4 +10,4 @@ COPY Reverso_maven.jar /app/Reverso_maven.jar
 RUN ls -la
 
 # Commande d'exécution du fichier JAR
-CMD ["java", "-jar", "ReversoMaven-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "Reverso_maven.jar"]
