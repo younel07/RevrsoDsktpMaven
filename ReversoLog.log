@@ -30,3 +30,5 @@
 03/05/2024 08:00:32 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
 03/05/2024 08:00:33 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
 03/05/2024 08:00:54 Level : INFO / Message : Base de données fermée / Méthode : run / Classe : Dao.Connexion$1
+14/05/2024 09:13:57 Level : INFO / Message : debut d'application / Méthode : main / Classe : org.example.Main
+14/05/2024 09:13:59 Level : INFO / Message : fin d'application / Méthode : main / Classe : org.example.Main
