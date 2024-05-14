@@ -18,7 +18,7 @@ jobs:
         run: sudo service mysql start
 
       - name: Create Database from script
-        run: mysql -u${{root}} -p${{}} -e "source infra/mysql/dump/BDD_POO_ECF.sql"
+        run: mysql -u${{ secrets.DB_USER }} -p{{}} -e "source infra/mysql/dump/BDD_POO_ECF.sql"
 
       - name: Set up JDK 17
         uses: actions/setup-java@v3
