@@ -3,8 +3,6 @@
 /* Date de cr�ation :  27/02/2024 09:41:59                      */
 /*==============================================================*/
 
-use BDD_POO_ECF.sql;
-
 drop table if exists CLIENT;
 
 drop table if exists PROSPECT;
