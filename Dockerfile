@@ -4,7 +4,7 @@ FROM openjdk:17-alpine
 WORKDIR /app
 
 # Copie du fichier JAR vers le répertoire de travail
-COPY target/ReversoMaven-1.0-SNAPSHOT.jar /app/ReversoMaven-1.0-SNAPSHOT.jar
+COPY ReversoMaven-1.0-SNAPSHOT.jar /app/ReversoMaven-1.0-SNAPSHOT.jar
 
 # Débogage : Affichage du contenu du répertoire de travail pour vérifier la présence du fichier JAR
 RUN ls -la
